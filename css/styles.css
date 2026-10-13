@@ -1,0 +1,111 @@
+/* Color Palette
+#0B1120 - color 1 Background
+#151E32 - color 2 Background 2
+#F8FAFC - color 3 Headers
+#94A3B8 - color 4 Text
+#38BDF8 - color 5 Links
+*/
+/* I'm probably going to change the color during hw 8 */
+/* Global styles 
+------------------------------------*/
+/* Border box fix */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #0B1120;
+    color: #F8FAFC;
+    margin: 0; /* I did this in hw 6 */
+    padding: 0;
+    font-family: 'IBM Plex Serif', serif;
+}
+h1, h2, h3 {
+    color: #F8FAFC;
+}
+p {
+    color: #94A3B8;
+    
+}
+ul {
+    color: #94A3B8;
+}
+a {
+    color: #38BDF8;
+}
+h1{
+    font-size: 2.5em;
+    font-weight: 500;
+    margin: 0;
+}
+h2{
+    font-size: 2em;
+    font-weight: 700;
+    /* margin-top: 0; */
+    margin: 0;
+}
+h3{
+    font-size: 1.3em;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #151E32;
+    /* padding: 10px; */
+}
+header {
+    padding-bottom: 10px;
+    
+}
+.profile-img {
+    /* width: 300px; */
+    border-radius: 50%;
+    /* float: left; */
+    /* margin-right: 30px; */
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+footer {
+    text-align: center;
+
+}
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+
+}
+
+
+/* Projects
+------------------------------------*/
+#projects{
+    background: #0B1120;
+    /* padding: 10px; */
+}
+
+
+/* Education
+------------------------------------*/
+#education{
+    background: #0B1120;
+    /* padding: 10px; */
+}
